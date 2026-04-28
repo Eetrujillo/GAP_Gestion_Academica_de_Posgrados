@@ -20,7 +20,7 @@ services:
     container_name: mearn-backend
     restart: unless-stopped
     env_file:
-      - ./backend/.env.example
+      - .env
     environment:
       - MONGO_URL=${MONGO_URL}
     depends_on:

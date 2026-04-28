@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 3201,
-    allowedHosts: ['hvdpd.apolobyte.top', 'localhost', '127.0.0.1'],
+    allowedHosts: ['gestion-academica.apolobyte.top', 'localhost', '127.0.0.1'],
     proxy: {
       '/api': {
         target: 'http://backend:3701',
